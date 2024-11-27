@@ -20,7 +20,8 @@ In the below example, a particle simulation of irregular objects in an
 industrial screen is shown. From this particle population, we have extracted the
 positions of all particle to a single [file](data/positions.xyz) with a format
 of one position per row, with x,y and z components printed with a white space
-separation.
+separation. There are two different sizes of the problem, where
+[positions_large.xyz](data/positions_large.xyz) contains 130 000 particles.
 
 ![Picture of particles in an industrial screen.](images/screen.png?raw=true "Particle population in an industrial screen.")
 

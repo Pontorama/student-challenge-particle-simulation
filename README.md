@@ -1,23 +1,20 @@
-Student challenge particle simulation
-=====================================
+# Student challenge particle simulation
 
 This repository contains details for the coding challenge announced during
-student fairs at Chalmers, November 2022.
+student fair FARM at Chalmers, November 2024.
 
-Background
-----------
+## Background
 
 All IPS software relies on fast computations of collision between objects. In
 our particle simulations we need to find all the pairs of particles which are
 within a certain distance of each other. Such a computation needs to be highly
 optimized and rely on smart algorithms to be competitive.
 
-Challenge
----------
+## Challenge
 
 In this challenge, we provide a data set with points in space where it is your
 task to find the number of pairs which are within a certain distance from each
-other. You propose a solution and submit it to us. 
+other. You propose a solution and submit it to us.
 
 In the below example, a particle simulation of irregular objects in an
 industrial screen is shown. From this particle population, we have extracted the
@@ -33,24 +30,23 @@ such pairs in the provided data file with an as efficient solution as possible.
 
 You can use your programming language of choice, but remember that the task is
 about performance. To achieve optimal computational time you could also use
-either CPU multithreading or a GPU parallelization. 
+either CPU multithreading or a GPU parallelization.
 
-If you choose a compiled language like C++ (which is encouraged!) please also
+If you choose a compiled language like C++ (which is encouraged!) or Rust please also
 provide some README with instructions on building your source code or provide a
 build system file.
 
 The solution will be evaluated based on:
 
-* computational time
-* choice of algorithm, and 
-* creativity in optimizing your implementation.
+- computational time
+- choice of algorithm, and
+- creativity in optimizing your implementation.
 
-We will test your code on a 16 core AMD 7950x desktop with a NVIDIA RTX 3090.
+We will test your code on a 16 core AMD 7950x desktop with a NVIDIA RTX 4080.
 
-Submitting the solution and questions
--------------------------------------
+## Submitting the solution and questions
 
-For any questions, please contact recruit@industrialpathsolutions.com. 
+For any questions, please contact recruit@industrialpathsolutions.com.
 
 To submit your solution, push a repository to a private account ot GitHub.com
 (or similar service) and send a link to your repository to

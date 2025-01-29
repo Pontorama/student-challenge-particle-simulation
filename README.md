@@ -17,8 +17,10 @@ should work on any linux computer.
 # Running
 The program takes 3 arguments; input file, output file and number of threads to be used
 Example usage:
+
 `./fast_pairs data/positions_large.xyz output/large.csv 4`
-The program will output a CSV file listing indexes (line numbers) of particles found in the input file as the first column, followed by the indexes of all the particles that are within a $0.05$m radius.
+
+The program will output a CSV file listing indexes (line numbers) of particles found in the input file as the first column, followed by the indexes of all the particles that are within a $0.05$ m radius.
 
 # Validity checks
 fast_pairs is my actual solution, slow_pairs was just used to check my solution together with the (sloppy) python script `check_validity.py`. No output from this script means that `slow_pairs` and `fast_pairs` gave the same pairs.

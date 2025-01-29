@@ -1,7 +1,7 @@
 # Student challenge particle simulation
 This is my entry for the student challange!
 My approach is to divide the total volume spanned by the particles into smaller "big boxes" which are then divided further into "small boxes" that are $0.05\text{m}\times0.05\text{m}\times0.05\text{m}$ large.
-The particles are then sorted into these smaller boxes, and the neighbouring boxes are searched for particles that are within a radius of $0.05$m. Doing this iteratively means I only have to check half of the neighbouring boxes.
+The particles are then sorted into these smaller boxes, and the neighbouring boxes are searched for particles that are within a radius of $0.05$ m. Doing this iteratively means I only have to check half of the neighbouring boxes.
 
 # Building
 (Disclaimer; since I built this on a linux desktop, it is not tested on any other platform)

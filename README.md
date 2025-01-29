@@ -16,6 +16,7 @@ should work on any linux computer.
 
 # Running
 The program takes 3 arguments; input file, output file and number of threads to be used
+
 Example usage:
 
 `./fast_pairs data/positions_large.xyz output/large.csv 4`

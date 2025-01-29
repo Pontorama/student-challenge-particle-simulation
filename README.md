@@ -5,9 +5,11 @@ The particles are then sorted into these smaller boxes, and the neighbouring box
 
 # Building
 (Disclaimer; since I built this on a linux desktop, it is not tested on any other platform)
+
 A makefile is provided, and there are two build options:
 - fast_pairs
 - slow_pairs
+
 I used no non-standard C-libraries, so simply typing
 `make fast_pairs`
 should work on any linux computer.
